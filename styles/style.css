@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(249, 123, 34);
+  height: auto;
+  width: auto;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+
+header .outer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+header .logo {
+  width: 3.5em;
+}
+
+header .nav-container {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 10px;
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(254, 232, 176);
+}
+
+#mainpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 36rem;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 106, 0, 0.722),
+      rgba(255, 106, 0, 0.722)
+    ),
+    url("../media/mall-mainpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#mainpage-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  padding-bottom: 5.5vh;
+  padding: 30px;
+}
+
+#news .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#news .news-title {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(249, 123, 34);
+}
+
+#news .outer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#news .post {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 15px;
+}
+
+#news .post-text {
+  font-family: "roboto", sans-serif;
+  font-size: 3.5vh;
+  text-align: justify;
+  width: 45vw;
+  color: rgb(249, 123, 34);
+}
+
+#news .post-image-properties {
+  width: 45vw;
+  border-radius: 3px;
+}
+
+#meet-us {
+  background-color: #fee8b05d;
+  padding-bottom: 50px;
+}
+
+#meet-us .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#meet-us .meet-us-title {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(249, 123, 34);
+}
+
+#meet-us .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+
+.workteam-img {
+  height: 15rem;
+  width: 23rem;
+  padding: 15px;
+}
+
+#meet-us .about-us-button {
+  align-self: end;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(249, 123, 34);
+  color: white;
+}
+
+#meet-us .meet-us-text {
+  text-align: center;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+  padding: 35px;
+}
+
+#contact-us {
+  background-image: linear-gradient(
+      180deg,
+      rgba(151, 63, 0, 0.722),
+      rgba(151, 63, 0, 0.722)
+    ),
+    url("../media/call-center.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 50px;
+}
+
+#contact-us .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-us .contact-us-title {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+#contact-us .contact-us-text {
+  text-align: center;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+  padding: 35px;
+  color: white;
+}
+
+#contact-us .contact-button {
+  align-self: end;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(250, 146, 42);
+  color: white;
+}
+
+#contact-us .contact-button:hover {
+  border: ridge;
+}
+
+footer {
+  height: auto;
+  background-color: rgba(249, 123, 34);
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: safe center;
+  margin: auto;
+}
+
+footer .footer-logo-div {
+  margin: 15px;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-logo {
+  width: 3em;
+}
+
+footer .footer-text-div {
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-text {
+  font-family: "roboto", sans-serif;
+  text-align: justify;
+  margin: 15px;
+}
+
+footer .social-networks-div {
+  margin: 16px;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-img {
+  width: 2em;
+  padding-bottom: 0px;
+}
+
+footer .footer-img-youtube {
+  width: 2em;
+  padding-bottom: 5px;
+}

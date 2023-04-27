@@ -1,0 +1,181 @@
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(249, 123, 34);
+  height: auto;
+  width: auto;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+
+header .outer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+header .logo {
+  width: 3.5em;
+}
+
+header .nav-container {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 10px;
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(254, 232, 176);
+}
+
+#our-places .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#our-places #container-title {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(249, 123, 34);
+  margin: 40px;
+}
+
+#our-places .outer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#our-places .place-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid;
+  border-radius: 15px;
+  width: 15em;
+  margin: 15px;
+  background-color: antiquewhite;
+}
+
+#our-places .card-title {
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(249, 123, 34);
+}
+
+#our-places .card-image {
+  width: 13em;
+}
+
+#our-places .card-body {
+  width: auto;
+  font-family: "roboto", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+#our-places .card-button {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(250, 146, 42);
+  color: white;
+  margin: 15px;
+}
+
+
+footer {
+  background-color: rgba(249, 123, 34);
+  margin-top: auto;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+footer .footer-logo-div {
+  margin: 15px;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-logo {
+  width: 3em;
+}
+
+footer .footer-text-div {
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-text {
+  font-family: "roboto", sans-serif;
+  text-align: justify;
+  margin: 15px;
+}
+
+footer .social-networks-div {
+  margin: 16px;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .footer-img {
+  width: 2em;
+  padding-bottom: 0px;
+}
+
+footer .footer-img-youtube {
+  width: 2em;
+  padding-bottom: 5px;
+}
+
