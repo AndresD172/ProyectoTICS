@@ -88,20 +88,22 @@ nav a:hover {
   justify-items: center;
   border: 1px solid;
   border-radius: 15px;
-  width: 15em;
+  width: 8em;
   margin: 15px;
   background-color: antiquewhite;
 }
 
 #our-places .card-title {
+  text-align: center;
   font-family: "roboto", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  padding: 5px;
   color: rgb(249, 123, 34);
 }
 
 #our-places .card-image {
-  width: 13em;
+  width: 7em;
 }
 
 #our-places .card-body {
@@ -126,7 +128,6 @@ nav a:hover {
   color: white;
   margin: 15px;
 }
-
 
 footer {
   background-color: rgba(249, 123, 34);
