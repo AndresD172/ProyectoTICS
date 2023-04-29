@@ -10,7 +10,7 @@ a {
 }
 
 header {
-  background-color: rgba(249, 123, 34);
+  background-color: rgb(249, 123, 34);
   height: auto;
   width: auto;
 }
@@ -23,6 +23,7 @@ header .container {
 header .outer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 header .logo-container {
@@ -81,6 +82,15 @@ nav a:hover {
   justify-content: center;
 }
 
+#our-places .section-title {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 5px;
+  color: rgb(249, 123, 34);
+}
+
 #our-places .place-card {
   display: flex;
   flex-direction: column;
@@ -91,6 +101,10 @@ nav a:hover {
   width: 8em;
   margin: 15px;
   background-color: antiquewhite;
+}
+
+#our-places .place-card:hover {
+  filter: drop-shadow(6px 5px 3px #ff9c55);
 }
 
 #our-places .card-title {

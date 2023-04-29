@@ -97,6 +97,7 @@ nav a:hover {
   color: rgb(249, 123, 34);
   margin: 5px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #contact .contact-page-body {
@@ -104,10 +105,13 @@ nav a:hover {
   font-weight: bold;
 }
 
-#contact .contact-page-list{
+#contact .contact-page-list {
   font-family: "roboto", sans-serif;
   font-weight: bold;
-  padding-left: 0px;
+  padding: 0px;
+  margin: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #contact .container {
@@ -137,7 +141,6 @@ nav a:hover {
 #contact .form-container {
   margin: 30px;
   margin-top: 0px;
-
 }
 
 #contact .submit-button {
@@ -162,7 +165,7 @@ footer .container {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: safe center;
+  justify-content: center;
   margin: auto;
 }
 
