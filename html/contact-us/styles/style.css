@@ -27,6 +27,7 @@ header .container {
 header .outer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 header .logo-container {
@@ -143,6 +144,11 @@ nav a:hover {
   margin-top: 0px;
 }
 
+#contact .placeholder-properties {
+  font-family: 'roboto', sans-serif;
+  color: rgb(124, 144, 112);
+}
+
 #contact .submit-button {
   text-align: center;
   font-family: "roboto", sans-serif;
@@ -204,4 +210,11 @@ footer .footer-img {
 footer .footer-img-youtube {
   width: 2em;
   padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+  }
 }
